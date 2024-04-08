@@ -1,0 +1,62 @@
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+.trending{
+    text-align: center;
+}
+body{
+    overflow-x: hidden;
+}
+
+.cor{
+    position: relative; 
+  }
+  .col{
+    position: relative;
+  }
+  .cos{
+    position: relative;
+  }
+  .hover-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .cor:hover .hover-image {
+    opacity: 1;
+  }
+  .col:hover .hover-image {
+    opacity: 1;
+  }
+  .cos:hover .hover-image {
+    opacity: 1;
+  }
+  .conn{
+    text-align: center;
+    height: 30vh;
+  }
+  .faq{
+    text-align: center;
+    height: 30vh;
+  }
+  
+@media screen and (max-width:576px){
+    body,html{
+        overflow-x: hidden;
+    }
+    nav{
+        display: none;
+    }
+    .con{
+        display: none;
+    }
+    .conn{
+        display: none;
+    }
+  
+}
