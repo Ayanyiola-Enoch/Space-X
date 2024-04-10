@@ -1,0 +1,100 @@
+
+input{
+    height: 7vh;
+    width: 400px;
+}
+.button{
+    /* width: 73%; */
+    /* text-align: center; */
+    /* margin-left: 150px; */
+}
+.con{
+    text-align: center;
+}
+.conn{
+    text-align: center;
+    height: 30vh;
+    margin-top: 300px;
+    padding-top: 30px;
+  }
+.faq{
+    text-align: center;
+    height: 60vh;
+    padding-top: 40px;
+    margin-top: 30px;
+  }
+
+
+
+
+  
+
+
+@media screen and (max-width:576px){
+    body{
+
+        overflow-x: hidden;
+    }
+    .dey{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    input{
+        width: 100%;
+        border: 3px solid black;
+    }
+    .container{
+        width: 100%;
+    }
+  
+    .btn{
+        width: 100% !important;
+    }
+    .conn{
+        display: none;
+      }
+
+
+          /* The sidepanel menu */
+.sidepanel {
+    height: 950px; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: black;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    /* color: #818181; */
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 10px;
+  }
+  .openbtn{
+    background-color: white;
+    border: none;
+  }
+   
+}
