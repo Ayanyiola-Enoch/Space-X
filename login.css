@@ -3,7 +3,6 @@
     left: 840px;
     top: 355px;
     position: absolute;
-    
 }
 input{
     height: 7vh;
@@ -20,7 +19,7 @@ input{
   }
 .faq{
     text-align: center;
-    height: 60vh;
+    height: 40vh;
     padding-top: 40px;
     margin-top: 30px;
   }
@@ -45,7 +44,9 @@ input{
         width: 100%;
     }
     .email>small{
-        display: none;
+      left: 240px;
+      top: 285px;
+      position: absolute;
     }
     .btn{
         width: 100% !important;
